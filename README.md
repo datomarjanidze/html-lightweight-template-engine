@@ -52,7 +52,7 @@ library to do that.
 
 - `HtmlLightweightTemplateEngine` class constructor parameters:
   - `texts` {[key: string]: string}: interpolation key-values
-  - `elementAttributePrefix` {string}: this value is used as a prefix to reference custom elements and attributes
+  - `elementAttributePrefix` {string}: this value is used as a prefix to reference custom elements and attributes. Default - 'app'
 
 ### Side note
 
