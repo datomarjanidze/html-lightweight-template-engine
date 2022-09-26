@@ -54,6 +54,10 @@ library to do that.
 </html>
 ```
 
+<br>
+<br>
+![Example](https://github.com/datomarjanidze/html-lightweight-template-engine/blob/main/example.png?raw=true)
+
 ### Specs
 
 - `HtmlLightweightTemplateEngine` class constructor parameters:
