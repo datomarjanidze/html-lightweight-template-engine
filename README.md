@@ -56,6 +56,7 @@ library to do that.
 
 <br>
 <br>
+
 ![Example](https://github.com/datomarjanidze/html-lightweight-template-engine/blob/main/example.png?raw=true)
 
 ### Specs
