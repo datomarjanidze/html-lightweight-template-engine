@@ -1,5 +1,11 @@
 ## HTML Lightweight Template Engine
 
+### Installation
+
+```console
+npm i html-lightweight-template-engine
+```
+
 ### Description
 
 When you simply want to use template interpolation `{{ someValue }}` and
@@ -53,8 +59,3 @@ library to do that.
 - `HtmlLightweightTemplateEngine` class constructor parameters:
   - `texts` {[key: string]: string}: interpolation key-values
   - `elementAttributePrefix` {string}: this value is used as a prefix to reference custom elements and attributes. Default - 'app'
-
-### Side note
-
-Use the build `dist/index.js` or make your custom build by running
-`npm run build`.
