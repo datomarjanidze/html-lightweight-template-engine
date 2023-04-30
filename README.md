@@ -1,10 +1,17 @@
-## HTML Lightweight Template Engine
+## HTML Lightweight Template Engine v1.1.0 Documentation
 
-### Installation
+<p align="center">
+  <a href="https://www.npmjs.com/package/decimal-subtract" target="_blank"><img src="https://img.shields.io/npm/v/decimal-subtract.svg" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/package/decimal-subtract" target="_blank"><img src="https://img.shields.io/npm/l/decimal-subtract.svg" alt="Package License" /></a>
+  <a href="https://www.npmjs.com/package/decimal-subtract" target="_blank"><img src="https://img.shields.io/npm/dm/decimal-subtract.svg" alt="NPM Downloads" /></a>
+</p>
 
-```console
-npm i html-lightweight-template-engine
-```
+### Table of contents
+
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage example](#Usage-example)
+- [API](#API)
 
 ### Description
 
@@ -12,6 +19,25 @@ When you simply want to use template interpolation `{{ someValue }}` and
 Angular like `ng-container` and `ng-template` elements (with the limited
 functionality) in plain HTML without any frameworks, you can use this
 library to do that.
+
+### Installation
+
+For the usage in ESM run the following command:
+
+```console
+npm i html-lightweight-template-engine
+```
+
+For the script tag usage include the following script:
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/html-lightweight-template-engine@1.1.0/dist/html-lightweight-template-engine.min.js"></script>
+  </body>
+</html>
+```
 
 ### Usage example
 
@@ -40,13 +66,14 @@ library to do that.
       </svg>
     </app-template>
 
-    <script src="./dist/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html-lightweight-template-engine@1.1.0/dist/html-lightweight-template-engine.min.js"></script>
     <script>
       window.onload = () => {
-        const templateEngine = new HtmlLightweightTemplateEngine({
-          pageTitle: "Mia's Blog",
-          greeting: 'Good evening'
-        })
+        const templateEngine =
+          new htmlLightweightTemplateEngine.HtmlLightweightTemplateEngine({
+            pageTitle: "Mia's Blog",
+            greeting: 'Good evening'
+          })
         templateEngine.renderTemplate()
       }
     </script>
@@ -59,7 +86,7 @@ library to do that.
 
 ![Example](https://github.com/datomarjanidze/html-lightweight-template-engine/blob/main/example.png?raw=true)
 
-### Specs
+### API
 
 - `HtmlLightweightTemplateEngine` class constructor parameters:
   - `texts` {[key: string]: string}: interpolation key-values
