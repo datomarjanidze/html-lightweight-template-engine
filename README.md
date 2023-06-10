@@ -1,9 +1,8 @@
-## HTML Lightweight Template Engine v1.2.0 Documentation
+## HTML Lightweight Template Engine v1.3.0 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/html-lightweight-template-engine" target="_blank"><img src="https://img.shields.io/npm/v/html-lightweight-template-engine.svg" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/html-lightweight-template-engine" target="_blank"><img src="https://img.shields.io/npm/l/html-lightweight-template-engine.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/package/html-lightweight-template-engine" target="_blank"><img src="https://img.shields.io/npm/dm/html-lightweight-template-engine.svg" alt="NPM Downloads" /></a>
 </p>
 
 ### Table of contents
@@ -34,7 +33,7 @@ For the script tag usage include the following script:
 <!DOCTYPE html>
 <html>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/html-lightweight-template-engine@1.2.0/dist/html-lightweight-template-engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html-lightweight-template-engine@1.3.0/dist/html-lightweight-template-engine.min.js"></script>
   </body>
 </html>
 ```
@@ -66,7 +65,7 @@ For the script tag usage include the following script:
       </svg>
     </app-template>
 
-    <script src="https://cdn.jsdelivr.net/npm/html-lightweight-template-engine@1.2.0/dist/html-lightweight-template-engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html-lightweight-template-engine@1.3.0/dist/html-lightweight-template-engine.min.js"></script>
     <script>
       window.onload = () => {
         const templateEngine =
