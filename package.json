@@ -5,7 +5,7 @@
   "main": "dist/html-lightweight-template-engine.esm.js",
   "module": "dist/html-lightweight-template-engine.esm.js",
   "types": "dist/html-lightweight-template-engine.d.ts",
-  "author": "Dato Marjanidze <datomarjanidze10@gmail.com>",
+  "author": "Dato Marjanidze",
   "license": "ISC",
   "homepage": "https://github.com/datomarjanidze/html-lightweight-template-engine#readme",
   "files": [
